@@ -10,6 +10,12 @@ const IndexPage = () => (
     <Seo title="Home" />
     <h1>Hi Everyone</h1>
     <p>Welcome to the first Vanish Gatsby Code Update!</p>
+    <StaticImage src="../images/test-img.svg" 
+    quality={95}
+    formats={["AUTO", "WEBP", "AVIF"]}
+    alt="Test Img"
+    style={{ marginBottom: `1.45rem` }}
+    />
     <p>We just made edits to our Gatsby Framework and are doing our first real deployment.</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
